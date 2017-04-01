@@ -1,0 +1,32 @@
+/*general*/
+body{margin:0;}
+section{height:1000px;width:90%;margin-left: 5%;color:white;padding-top: 80px;}
+ul li{list-style: none;float:left;}
+a:link{text-decoration: none;}
+p{word-break: break-all;text-indent: 2em;}
+.white{color:white;}
+.border{border:1px solid aqua;color:aqua;}
+
+/*background*/
+#c{width:100%;height: 1000%;position: absolute;z-index: -1;}
+
+/*nav*/
+#logo{width:50px;height:auto;position: fixed;top:10px;left:20px;}
+#u1{top:10px;right:50px;position: fixed;z-index: 2}
+#u1 li{margin:0 20px;width:100px;text-align: center;height: 30px;}
+#u1 li a{padding: 10px;}
+#u1 li:hover a{color:aqua;border:1px solid aqua;}
+
+/*Homepage*/
+#h1a{margin-left:30%;margin-top: 30px;z-index: 1;position: absolute;font-size: 50px;color:#ff9933;}
+#h1b{margin-left:20%;margin-top: 200px;z-index: 1;position: absolute;font-size: 50px;color:blue;}
+#h1c{margin-left:40%;margin-top: 330px;z-index: 1;position: absolute;font-size: 50px;color:white;}
+
+/*Books*/
+table{z-index: 1;position: absolute;left:35%;text-align: center;border-collapse: collapse;}
+td{border:1px solid white;}
+
+/*button to top*/
+button{font-weight: 800;position: fixed;right:30px;bottom:30px;width:50px;height: 50px;}
+
+
